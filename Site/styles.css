@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+background-color: black;
+
+
+}
+.header
+{
+    height: 111px;
+    background-color: rgb(0, 0, 0);
+  
+}
+.container
+{
+    
+    margin: auto;
+    height: 100%;
+    width: 85%;
+    padding: 20px;
+    display: flex;
+   
+
+    align-items: center;
+    
+
+}
+
+
+.header .container{
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20rem;
+}
+
+.navbar 
+{
+ display: flex;
+ list-style: none;
+
+ width: 50%;  
+ justify-content: space-between;
+ margin: 0 20px;
+ text-transform: uppercase;
+
+ 
+  
+ 
+}
+
+
+
+.navbar li a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+
+
+.header .container  img{
+    width: 180px;
+    border-radius: 15px;
+}
+
+
+
+.header ul
+{
+    color: purple;
+}
+
+.active
+{
+    font-weight: bolder;
+    
+}
+
+.banner
+{
+   
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    height: 103vh;
+   
+    
+    width: 100%;
+    background-image: url(https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/bocw/BOCW-S5-Battle-Pass-TOUT.jpg);
+    background-repeat: no-repeat;
+   
+   
+    display: flex;
+    
+    
+    justify-content: space-around;
+}
+
+.banner .message{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 40%;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+ .banner .message p
+{
+    margin-bottom: 80px;
+    color: #000;
+    font-size: 60px;
+    font-weight: 400;
+    
+    
+}
+
+.banner .message p span{
+    font-weight: 700;
+    
+}
+
+
+.bloco{
+    margin-top: 80px;
+    height: 40vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.bloco:last-child{
+    margin-left: 50px;
+}
+
+.bloco div{
+    
+    width: 50%;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: 300;
+  
+   
+}
+
+.bloco div h3{
+    margin-top: 30px;
+    color: purple;
+    margin-bottom: 50px;
+  
+}
+
+.bloco div p a{
+        text-decoration: none;
+        color: purple;
+        font-weight: bold;
+}
+
+.purpose
+{
+    margin-top: 50px;
+    height: 450px;
+    background-color: transparent;
+    
+}
+
+.purpose .container .mvv div img
+{
+    height: 100px;
+    width: 100px;
+    
+} 
+
+
+
+.purpose .container .mvv
+{
+
+   
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.purpose .container
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.purpose .container .mvv div{
+    
+    margin-bottom: 20px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.purpose .container h2
+{
+    
+    background-color: #ffff;
+    color: purple;
+    font-weight: bold;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.purpose .container .mvv div h3
+{
+    color: purple;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+
+
+option {
+    background-color: rgb(255, 255, 255);
+}
+.blocoSimulador{
+    background-color:purple;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 90%;
+    height: 20%;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    box-sizing: border-box;
+    border-width: 3px;
+    
+}
+
+
+.banner .titulo {
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    font-weight: bolder;
+    font-size: 30px;  
+    color: purple;
+}
+
+
+.banner .botoes {
+    
+    display: flex;
+    
+    align-items: center;
+    width: 450px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+ 
+    
+}
+
+.banner .botoes button
+{
+    background: purple;
+    color: #fff;
+    
+    
+    margin-left: 30px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.banner .botoes button:hover{
+    opacity: 0.9;
+    
+  
+}
+
+
+.banner  h1{
+    margin-top: 70px;
+   margin-bottom: 20px;
+   color: purple;
+   font-weight: bolder;
+   margin-bottom: 30px;
+   font-size: 40px;
+   
+}
+
+.tituloCadastro{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: purple;
+    align-items: center;
+    margin-top: -10px;
+}
+
+
+.bannerCadastro .cad{
+    background-color: white;
+   opacity: 0.7;
+   border-radius: 10px;
+}
+
+
+.bannerCadastro{
+   background-image: url(https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/bocw/BOCW-S5-Battle-Pass-TOUT.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+
+
+.bannerCadastro .formCadastro{
+    
+    /* margin-bottom: 200px; */
+    padding: 50px;
+    border-radius: 30px;
+   background-color: black;
+   opacity: 0.9;
+    height: 30vh;
+    width: 51%;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+   
+}
+
+ .dadosCliente{
+     height: 55vh;
+     padding: 20px;
+    border-style: solid;
+    border-color: purple;
+    border-width: 3px;
+    border-radius: 15px;
+    background: #fff;
+    align-items: center;
+
+}
+
+
+.botaoCadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.botaoCadastro button{      
+    cursor: pointer;
+    background-color: purple;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+}
+
+.botaoCadastro  button:hover{
+        opacity: 0.8;
+}
+
+
+ 
+.banner .formLogin{
+    margin-top: 30px ;
+    margin-bottom: 150px;
+    background: #fff;
+    height: 55%;
+    width: 15%;
+    padding: 37px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 3px;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-weight: 500;
+    color:purple;
+}
+
+.banner .formLogin input{
+    height: 30px;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+
+.banner .formLogin button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: purple ;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px; 
+}
+
+.banner .formLogin button:hover{
+    opacity: 0.8;
+}
+
+.banner .formLogin button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.banner .formLogin p a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: purple;
+
+}
+
+.graficosDash{
+    height: 100vh;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    
+  
+    justify-content: space-around;
+    
+}
+
+.graficosDash .graficos{
+ 
+    
+    margin-top: 50px;
+    
+}
+
+.footer
+{
+    margin-top: 50px;
+    width: 100%;
+    background-color:purple;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer p
+{
+    color: #ffff;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.banner .contato {
+    background-color: #fff;
+    
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    background: #fff;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    height: 50%;
+    width: 28%;
+    padding: 40px;
+    
+    border-radius: 20px;
+
+    font-weight: 500;
+    color:#000000;
+    
+
+}
+
+.banner .contato .titulo h2{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.banner .contato .mensagem{
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+    
+    
+}
+
+.banner .contato .msg{
+    width: 100%;
+    margin-top: 5px;
+
+    
+    
+}
+ 
+.banner .contato .botao{
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+    color: purple;
+    
+    
+}
+
+.banner .contato .botao:hover{
+    opacity: 0.8;
+}
+
+.submit{
+   
+    cursor: pointer;
+    background-color: purple;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px; 
+    align-items: center;
+}
+   
